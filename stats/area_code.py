@@ -85,6 +85,9 @@ def spider(url, level):
 # 入口
 if __name__ == '__main__':
     url = 'https://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2023/index.html'
+    # url = 'https://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2023/44/4419.html'
+    # url = 'https://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2023/44/4420.html'
+    # url = 'https://www.stats.gov.cn/sj/tjbz/tjyqhdmhcxhfdm/2023/46/4604.html'
     file = open("area-code-2023.txt", "w", encoding="utf-8")
     spider(url, 1)
     file.close()
